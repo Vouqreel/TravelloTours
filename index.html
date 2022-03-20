@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/logo.svg" type="image/x-icon">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="theme-color" content="#111111">
+    <title>Travello | Tours</title>
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body class="body">
+
+    <div class="site-container">
+        <header class="header">
+    <div class="header__container container">
+        <a href="#" class="header__logo logo" data-aos="fade-right">
+            Travello
+        </a>
+        <nav class="menu">
+            <span class="menu__line"></span>
+            <ul class="menu__list list-reset" data-aos="fade-left">
+                <li class="menu__item">
+                    <a href="#hero" class="menu__link">Home</a>
+                </li>
+                <li class="menu__item">
+                    <a href="#about" class="menu__link">About us</a>
+                </li>
+                <li class="menu__item">
+                    <a href="#trip" class="menu__link">Destinations</a>
+                </li>
+                <li class="menu__item">
+                    <a href="#deal" class="menu__link">Tour package</a>
+                </li>
+                <li class="menu__item">
+                    <a href="#contact" class="menu__link">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <button class="burger btn-reset" aria-label="Open menu" data-aos="fade-left">
+            <span class="burger__line"></span>
+        </button>
+    </div>
+</header>
+        <main>
+            <section id="hero" class="hero section">
+    <div class="hero__container container">
+        <h1 class="hero__title" data-aos="zoom-out">
+            Explore The Great Place
+        </h1>
+    </div>
+</section>
+            <section id="about" class="about section">
+    <div class="about__top">
+        <form action="#" class="about-form form" data-aos="fade-left">
+            <div class="about-form__row">
+                <select name="Destination" class="about-form__item" aria-label="Where to?">
+                    <option value="">Where to</option>
+                    <option value="1">New York</option>
+                    <option value="2">Paris</option>
+                    <option value="3">London</option>
+                    <option value="4">Thailand</option>
+                </select>
+                <select class="about-form__item">
+                    <option value="">When</option>
+                    <option value="1">30 December</option>
+                    <option value="2">9 January</option>
+                    <option value="3">26 January</option>
+                    <option value="4">12 February</option>
+                </select>
+                <select class="about-form__item">
+                    <option value="">Travel Type</option>
+                    <option value="1">Business Travel</option>
+                    <option value="2">Solo Travel</option>
+                    <option value="3">Family Travel</option>
+                    <option value="4">Adventure Travel</option>
+                </select>
+                <button type="submit" class="about-form__button btn btn-reset">
+                    Discover now
+                </button>
+            </div>
+        </form>
+    </div>
+    <div class="about__container container">
+        <div class="about__row">
+            <span class="about__image" data-aos="zoom-out">
+                <img src="img/about-image.jpg" alt="Asakusa Shrine">
+            </span>
+            <div class="about__text">
+                <h2 class="about__title title" data-aos="fade-left">
+                    Learn More
+                    About Travello
+                </h2>
+                <p class="about__descr" data-aos="fade-right">
+                    For those who like traveling with friends or family, we offer group tours to Europe and Asia. You can either gather your own group up to 12 members or join one of the groups that we form for you and other tourists. Contact us for more details today!
+                </p>
+                <button class="about__button btn btn-reset" data-graph-path="main" data-aos="fade-left">
+                    Plan My Trip
+                </button>
+            </div>
+        </div>
+    </div>
+</section>
+            <section id="trip" class="trip section">
+    <div class="trip__container container">
+        <div class="trip__top">
+            <div class="trip__group" data-aos="fade-right">
+                <span class="trip__kicker">
+                    Place & Cities Must Visit This Summer
+                </span>
+                <h2 class="trip__title title">
+                    Curated For You
+                </h2>
+            </div>
+            <div class="trip__group">
+                <button class="trip__button btn btn-reset" data-graph-path="main" data-aos="fade-left">
+                    More Curated for You
+                </button>
+            </div>
+        </div>
+
+        <div class="trip-slider swiper" data-aos="fade">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <article class="trip-card trip__card">
+                        <div class="trip-card__top">
+                            <img src="img/trip-slider-1.jpg" alt="Slider picture">
+                            <button class="trip-card__order btn-reset" data-graph-path="main">
+                                Book Now
+                            </button>
+                        </div>
+                        <div class="trip-card__bottom">
+                            <div class="trip-card__row">
+                                <h3 class="trip-card__title">
+                                    New York
+                                </h3>
+                                <span class="trip-card__rating">
+                                    <img src="img/trip-star.svg" alt="Rating">
+                                    <img src="img/trip-star.svg" alt="Rating">
+                                    <img src="img/trip-star.svg" alt="Rating">
+                                    <img src="img/trip-star.svg" alt="Rating">
+                                    <img src="img/trip-star.svg" alt="Rating">
+                                </span>
+                            </div>
+                            <span class="trip-card__subtitle">
+                                City in the USA
+                            </span>
+                            <div class="trip-card__row">
+                                <div class="trip-card__group">
+                                    <span class="trip-card__capacity">
+                                        2
+                                    </span>
+                                    <span class="trip-card__time">
+                                        10 Days
+                                    </span>
+                                </div>
+                                <span class="trip-card__price">$1,890</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <div class="swiper-slide">
+                    <article class="trip-card trip__card">
+                        <div class="trip-card__top">
+                            <img src="img/trip-slider-2.jpg" alt="Slider picture">
+                            <button class="trip-card__order btn-reset" data-graph-path="main">
+                                Book Now
+                            </button>
+                        </div>
+                        <div class="trip-card__bottom">
+                            <div class="trip-card__row">
+                                <h3 class="trip-card__title">
+                                    Paris
+                                </h3>
+                                <span class="trip-card__rating">
+                                    <img src="img/trip-star.svg" alt="Rating">
+                                    <img src="img/trip-star.svg" alt="Rating">
+                                    <img src="img/trip-star.svg" alt="Rating">
+                                    <img src="img/trip-star.svg" alt="Rating">
+                                    <img src="img/trip-star.svg" alt="Rating">
+                                </span>
+                            </div>
+                            <span class="trip-card__subtitle">
+                                Capital of France
+                            </span>
+                            <div class="trip-card__row">
+                                <div class="trip-card__group">
+                                    <span class="trip-card__capacity">
+                                        3
+                                    </span>
+                                    <span class="trip-card__time">
+                                        14 Days
+                                    </span>
+                                </div>
+                                <span class="trip-card__price">$2,690</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <div class="swiper-slide">
+                    <article class="trip-card trip__card">
+                        <div class="trip-card__top">
+                            <img src="img/trip-slider-3.jpg" alt="Slider picture">
+                            <button class="trip-card__order btn-reset" data-graph-path="main">
+                                Book Now
+                            </button>
+                        </div>
+                        <div class="trip-card__bottom">
+                            <div class="trip-card__row">
+                                <h3 class="trip-card__title">
+                                    London
+                                </h3>
+                                <span class="trip-card__rating">
+                                    <img src="img/trip-star.svg" alt="Rating">
+                                    <img src="img/trip-star.svg" alt="Rating">
+                                    <img src="img/trip-star.svg" alt="Rating">
+                                    <img src="img/trip-star.svg" alt="Rating">
+                                    <img src="img/trip-star.svg" alt="Rating">
+                                </span>
+                            </div>
+                            <span class="trip-card__subtitle">
+                                The capital of Great Britain
+                            </span>
+                            <div class="trip-card__row">
+                                <div class="trip-card__group">
+                                    <span class="trip-card__capacity">
+                                        2
+                                    </span>
+                                    <span class="trip-card__time">
+                                        7 Days
+                                    </span>
+                                </div>
+                                <span class="trip-card__price">$2,550</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <div class="swiper-slide">
+                    <article class="trip-card trip__card">
+                        <div class="trip-card__top">
+                            <img src="img/trip-slider-4.jpg" alt="Slider picture">
+                            <button class="trip-card__order btn-reset" data-graph-path="main">
+                                Book Now
+                            </button>
+                        </div>
+                        <div class="trip-card__bottom">
+                            <div class="trip-card__row">
+                                <h3 class="trip-card__title">
+                                    Paris
+                                </h3>
+                                <span class="trip-card__rating">
+                                    <img src="img/trip-star.svg" alt="Rating">
+                                    <img src="img/trip-star.svg" alt="Rating">
+                                    <img src="img/trip-star.svg" alt="Rating">
+                                    <img src="img/trip-star.svg" alt="Rating">
+                                    <img src="img/trip-star.svg" alt="Rating">
+                                </span>
+                            </div>
+                            <span class="trip-card__subtitle">
+                                The capital of France
+                            </span>
+                            <div class="trip-card__row">
+                                <div class="trip-card__group">
+                                    <span class="trip-card__capacity">
+                                        2
+                                    </span>
+                                    <span class="trip-card__time">
+                                        5 Days
+                                    </span>
+                                </div>
+                                <span class="trip-card__price">$1.690</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <div class="swiper-slide">
+                    <article class="trip-card trip__card">
+                        <div class="trip-card__top">
+                            <img src="img/trip-slider-5.jpg" alt="Slider picture">
+                            <button class="trip-card__order btn-reset" data-graph-path="main">
+                                Book Now
+                            </button>
+                        </div>
+                        <div class="trip-card__bottom">
+                            <div class="trip-card__row">
+                                <h3 class="trip-card__title">
+                                    Thailand
+                                </h3>
+                                <span class="trip-card__rating">
+                                    <img src="img/trip-star.svg" alt="Rating">
+                                    <img src="img/trip-star.svg" alt="Rating">
+                                    <img src="img/trip-star.svg" alt="Rating">
+                                    <img src="img/trip-star.svg" alt="Rating">
+                                    <img src="img/trip-star.svg" alt="Rating">
+                                </span>
+                            </div>
+                            <span class="trip-card__subtitle">
+                                Country in Asia
+                            </span>
+                            <div class="trip-card__row">
+                                <div class="trip-card__group">
+                                    <span class="trip-card__capacity">
+                                        2
+                                    </span>
+                                    <span class="trip-card__time">
+                                        7 Days
+                                    </span>
+                                </div>
+                                <span class="trip-card__price">$2,550</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-buttons">
+            <div class="swiper-buttons-wrapper" data-aos="zoom-in">
+                <div class="swiper-button-prev swiper-button">
+                    <img src="img/slider-prev-button.svg" alt="Previous">
+                </div>
+                <div class="swiper-button-next swiper-button">
+                    <img src="img/slider-next-button.svg" alt="Next">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+            <section id="deal" class="deal section">
+    <div class="deal__container container">
+        <div class="deal__top">
+            <h2 class="deal__title title" data-aos="fade-right">Flash Deals</h2>
+            <button class="deal__button btn btn-reset" data-graph-path="main" data-aos="fade-left">More Flash Deals</button>
+        </div>
+    </div>
+    <div class="deal__bottom">
+        <div class="deal-slider swiper" data-aos="fade">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                    <article class="deal-card deal__card">
+                        <div class="deal-card__top">
+                            <img src="img/gallery-image-8.jpg" alt="Slider picture">
+                        </div>
+                        <div class="deal-card__bottom">
+                            <time class="deal-card__time">
+                                08:32
+                            </time>
+                            <h3 class="deal-card__subtitle">
+                                Visit the Miami in uncompromising Luxury
+                            </h3>
+                            <span class="deal-card__capacity">
+                                Per Person, 4 Nights
+                            </span>
+                            <span class="deal-card__price">
+                                $1,190
+                            </span>
+                        </div>
+                    </article>
+                </div>
+                <div class="swiper-slide">
+                    <article class="deal-card deal__card">
+                        <div class="deal-card__top">
+                            <img src="img/gallery-image-7.jpg" alt="Slider picture">
+                        </div>
+                        <div class="deal-card__bottom">
+                            <time class="deal-card__time">
+                                23:21
+                            </time>
+                            <h3 class="deal-card__subtitle">
+                                Discover the Barcelona in uncompromising Luxury
+                            </h3>
+                            <span class="deal-card__capacity">
+                                Per Person, 5 Nights
+                            </span>
+                            <span class="deal-card__price">
+                                $840
+                            </span>
+                        </div>
+                    </article>
+                </div>
+                <div class="swiper-slide">
+                    <article class="deal-card deal__card">
+                        <div class="deal-card__top">
+                            <img src="img/gallery-image-6.jpg" alt="Slider picture">
+                        </div>
+                        <div class="deal-card__bottom">
+                            <time class="deal-card__time">
+                                14:22
+                            </time>
+                            <h3 class="deal-card__subtitle">
+                                Discover the London in uncompromising Luxury
+                            </h3>
+                            <span class="deal-card__capacity">
+                                Per Person, 4 Nights
+                            </span>
+                            <span class="deal-card__price">
+                                $890
+                            </span>
+                        </div>
+                    </article>
+                </div>
+                <div class="swiper-slide">
+                    <article class="deal-card deal__card">
+                        <div class="deal-card__top">
+                            <img src="img/gallery-image-5.jpg" alt="Slider picture">
+                        </div>
+                        <div class="deal-card__bottom">
+                            <time class="deal-card__time">
+                                09:30
+                            </time>
+                            <h3 class="deal-card__subtitle">
+                                Discover the Thailand in uncompromising Luxury
+                            </h3>
+                            <span class="deal-card__capacity">
+                                Per Person, 8 Nights
+                            </span>
+                            <span class="deal-card__price">
+                                $1,590
+                            </span>
+                        </div>
+                    </article>
+                </div>
+                <div class="swiper-slide">
+                    <article class="deal-card deal__card">
+                        <div class="deal-card__top">
+                            <img src="img/gallery-image-4.jpg" alt="Slider picture">
+                        </div>
+                        <div class="deal-card__bottom">
+                            <time class="deal-card__time">
+                                20:03
+                            </time>
+                            <h3 class="deal-card__subtitle">
+                                Discover the Interlaken in uncompromising Luxury
+                            </h3>
+                            <span class="deal-card__capacity">
+                                Per Person, 6 Nights
+                            </span>
+                            <span class="deal-card__price">
+                                $1,240
+                            </span>
+                        </div>
+                    </article>
+                </div>
+                <div class="swiper-slide">
+                    <article class="deal-card deal__card">
+                        <div class="deal-card__top">
+                            <img src="img/gallery-image-3.jpg" alt="Slider picture">
+                        </div>
+                        <div class="deal-card__bottom">
+                            <time class="deal-card__time">
+                                02:09
+                            </time>
+                            <h3 class="deal-card__subtitle">
+                                Discover the London in uncompromising Luxury
+                            </h3>
+                            <span class="deal-card__capacity">
+                                Per Person, 6 Nights
+                            </span>
+                            <span class="deal-card__price">
+                                $1,390
+                            </span>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+            <section id="contact" class="contact section">
+    <div class="contact__container container">
+        <div class="contact__left">
+            <h2 class="contact__title" data-aos="fade-right">
+                Feel free to drop a line
+            </h2>
+            <address class="contact__address contact__subtitle" data-aos="fade-right">
+                The Rocks, Sydney 2000
+            </address>
+            <a href="tel:62500800123" class="contact__phone contact__subtitle" data-aos="fade-left">
+                +62 500 800 123
+            </a>
+            <a href="mailto:vouqreel@gmail.com" class="contact__email contact__subtitle" data-aos="fade-right">
+                vouqreel@gmail.com
+            </a>
+        </div>
+        <div class="contact__right">
+            <form action="#" class="contact__form contact-form">
+                <span class="contact-form__item" data-aos="fade-left">
+                    <label class="contact-form__label">
+                        First name
+                    </label>
+                    <input type="text" class="contact-form__input input">
+                </span>
+                <span class="contact-form__item" data-aos="fade-right">
+                    <label class="contact-form__label">
+                        Email
+                    </label>
+                    <input type="email" class="contact-form__input input">
+                </span>
+                <span class="contact-form__item" data-aos="fade-left">
+                    <label class="contact-form__label">
+                        Subject
+                    </label>
+                    <input type="text" class="contact-form__input input">
+                </span>
+                <span class="contact-form__item" data-aos="fade-right">
+                    <label class="contact-form__label">
+                        Your message
+                    </label>
+                    <textarea name="message" class="contact-form__textarea" data-aos="fade-left"></textarea>
+                </span>
+                <span class="contact-form__item" data-aos="fade-right">
+                    <button name="submit" type="submit" class="contact-form__button btn btn-reset">
+                        Send
+                    </button>
+                </span>
+            </form>
+        </div>
+    </div>
+</section>
+        </main>
+        <footer class="footer">
+    <div class="footer__container container">
+        <nav class="footer__top">
+            <ul class="footer__list list-reset" data-aos="fade-right">
+                <li class="footer__title">
+                    Call us
+                </li>
+                <li class="footer__item">
+                    <a href="tel:+62500800123" class="footer__link menu__link">
+                        +62 500 800 123
+                    </a>
+                </li>
+                <li class="footer__item">
+                    <a href="mailto:vouqreel@gmail.com" class="footer__link menu__link">
+                        vouqreel@gmail.com
+                    </a>
+                </li>
+                <li class="footer__item">
+                    <ul class="footer__social social list-reset">
+                        <li class="social__item">
+                            <a href="https://www.instagram.com/vazg3n/" class="social__link social__link--fb" target="_blank" aria-label="Go to Facebook"></a>
+                        </li>
+                        <li class="social__item">
+                            <a href="https://www.instagram.com/vazg3n/" class="social__link social__link--tw" target="_blank" aria-label="Go to Twitter"></a>
+                        </li>
+                        <li class="social__item">
+                            <a href="https://www.instagram.com/vazg3n/" class="social__link social__link--vm" target="_blank" aria-label="Go to Vimeo"></a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="footer__list list-reset" data-aos="fade">
+                <li class="footer__title">
+                    Support
+                </li>
+                <li class="footer__item">
+                    <a href="#" class="footer__link">Customer Support</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#" class="footer__link">Pricvacy Policy</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#" class="footer__link">Contact Channels</a>
+                </li>
+            </ul>
+            <div class="footer__payment" data-aos="fade-left">
+                <span class="footer__title">Pay Safely with us</span>
+                <p class="footer__text">The payment encrypted and transmitted security with SSL Protocol</p>
+            </div>
+        </nav>
+        <div class="footer__bottom" data-aos="fade-right" data-aos-anchor=".footer__payment">
+            <span class="footer__copyright">© 2021 creative people. All rights reservered</span>
+        </div>
+    </div>
+</footer>
+        <div class="modal main-modal">
+    <div class="modal__container" role="dialog" aria-modal="true" data-graph-target="main">
+        <button class="modal__close" aria-label="Close Modal Window">Close</button>
+        <div class="modal-content">
+            <form class="modal__form modal-form">
+                <h2 class="modal-form__title">Please enter your contact info to get more details!</h2>
+                <span class="modal-form__item">
+                    <input type="text" class="modal-form__input input" placeholder="Name">
+                </span>
+                <span class="modal-form__item">
+                    <input type="email" class="modal-form__input input" placeholder="Email Address">
+                </span>
+                <span class="modal-form__item">
+                    <input type="text" class="modal-form__input input" placeholder="Phone Number">
+                </span>
+                <span class="modal-form__item">
+                    <textarea name="message" class="modal-form__textarea" placeholder="What do You Want to Know About?"></textarea>
+                </span>
+                <button name="submit" type="submit" class="modal-form__button btn btn-reset">
+                    Send
+                </button>
+            </form>
+        </div>
+    </div>
+</div>
+    </div>
+    <script src="js/vendor.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
